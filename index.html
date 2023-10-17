@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frogger Paris</title>
+  </head>
+  <body>
+    <main>
+      <div class="game-board">
+        <!-- tower -->
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+        <div class="cell tower"></div>
+
+        <!-- green -->
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+
+        <!-- sidewalk right-->
+
+        <!-- sidewalk left-->
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+        <div class="cell sidewalk"></div>
+
+        <!-- river 5-->
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell river"></div>
+        <div class="cell bridge"></div>
+        <div class="cell bridge"></div>
+
+        <!-- river -->
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+        <div class="cell grass"></div>
+
+        <!-- road -->
+        <!-- road -->
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <!-- road -->
+        <!-- change direction -->
+        <!-- road -->
+        <!-- road -->
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <div class="cell car"></div>
+        <!-- road -->
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <div class="cell bike"></div>
+        <!-- road -->
+
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+        <div class="cell bus"></div>
+
+        <!-- player -->
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+        <div class="cell player"></div>
+      </div>
+    </main>
+  </body>
+</html>
