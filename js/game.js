@@ -1,5 +1,5 @@
 const timeLeftcounter = document.querySelector("#time-left")
-let timeLeft = 30 
+let timeLeft = 30
 const livesCounter = document.querySelector("#lives")
 
 class Game {
@@ -41,7 +41,7 @@ class Game {
         } else {
           this.player.reset()
           clearInterval(this.timerInterval)
-          timeLeft = 60
+          timeLeft = 30
           timeLeftcounter.textContent = timeLeft
           livesCounter.textContent = this.lives
         }
@@ -52,6 +52,7 @@ class Game {
         this.gameIsOver = true
         this.gameScreen.style.display = "none"
         this.winScreen.style.display = "block"
+
         return
       }
     }
