@@ -120,13 +120,13 @@ function createObstacleOnBridge(numObstacles, positionsRightLeft, minX, maxX) {
       Math.random() * yPositionsBridgeLeft.length
     )
     const personRight = new Obstacle(
-      `./img/People/PersonR${Math.floor(Math.random() * 6 + 1)}.png`,
+      `./img/People/personR${Math.floor(Math.random() * 6 + 1)}.png`,
       minX[Math.floor(Math.random() * minX.length)],
       yPositionsBridgeRight[randomYPositionIndexRight],
       40
     )
     const personLeft = new Obstacle(
-      `./img/People/PersonL${Math.floor(Math.random() * 6 + 1)}.png`,
+      `./img/People/personL${Math.floor(Math.random() * 6 + 1)}.png`,
       maxX[Math.floor(Math.random() * maxX.length)],
       yPositionsBridgeLeft[randomYPositionIndexLeft],
       40
